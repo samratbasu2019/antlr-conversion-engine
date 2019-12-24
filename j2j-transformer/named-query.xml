@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity-mappings xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm" version="2.1">
+    <named-native-query name="GET_fnd_lookup_values WHERE lookup">
+        <query>SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1</query>
+    </named-native-query>
+    <named-native-query name="GET_employee">
+        <query>SELECT salary INTO var_salary FROM employee </query>
+    </named-native-query>
+    <named-native-query name="GET_employee">
+        <query>SELECT salary INTO var_salary FROM employee</query>
+    </named-native-query>
+</entity-mappings>

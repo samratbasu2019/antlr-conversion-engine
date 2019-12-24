@@ -1,0 +1,344 @@
+2019-11-01 10:30:01 DEBUG Starter:36 - NamedQuery Successfully created...
+2019-11-01 10:30:40 DEBUG Starter:36 - NamedQuery {} Successfully created...
+2019-11-01 11:10:11 DEBUG Starter:44 - NamedQuery {} Successfully created...
+2019-11-01 11:11:21 DEBUG Starter:45 - NamedQuery {} Successfully created...
+2019-11-01 11:17:54 DEBUG Starter:46 - NamedQuery {} Successfully created...
+2019-11-01 11:19:33 DEBUG Starter:46 - NamedQuery {} Successfully created...
+2019-11-01 11:19:56 DEBUG Starter:46 - NamedQuery {} Successfully created...
+2019-11-01 11:20:19 DEBUG Starter:46 - NamedQuery {} Successfully created...
+2019-11-01 11:21:13 DEBUG Starter:46 - NamedQuery {} Successfully created...
+2019-11-01 11:22:03 DEBUG Starter:45 - NamedQuery {} Successfully created...
+2019-11-01 11:47:02 DEBUG QueryGenerator:14 - Query Name is :test & Query :Samrat
+2019-11-01 11:47:02 DEBUG QueryGenerator:14 - Query Name is :hello & Query :Martina
+2019-11-01 11:47:02 DEBUG Starter:42 - NamedQuery XML {} Successfully created...
+2019-11-01 11:48:54 DEBUG QueryGenerator:14 - Query Name is :test & Query :Samrat
+2019-11-01 11:48:54 DEBUG QueryGenerator:14 - Query Name is :hello & Query :Martina
+2019-11-01 11:48:54 DEBUG Starter:43 - NamedQuery XML {} Successfully created...
+2019-11-01 11:56:16 DEBUG QueryGenerator:14 - Query Name is :test & Query :Samrat
+2019-11-01 11:56:16 DEBUG QueryGenerator:14 - Query Name is :hello & Query :Martina
+2019-11-01 11:56:16 DEBUG Starter:46 - NamedQuery XML {} Successfully created...
+2019-11-01 11:57:06 DEBUG QueryGenerator:14 - Query Name is :test & Query :Samrat
+2019-11-01 11:57:06 DEBUG QueryGenerator:14 - Query Name is :hello & Query :Martina
+2019-11-01 11:57:06 DEBUG Starter:46 - NamedQuery XML {} Successfully created...
+2019-11-01 11:58:01 DEBUG QueryGenerator:14 - Query Name is :test & Query :Samrat
+2019-11-01 11:58:01 DEBUG QueryGenerator:14 - Query Name is :hello & Query :Martina
+2019-11-01 11:58:01 DEBUG Starter:44 - NamedQuery XML {} Successfully created...
+2019-11-01 11:58:10 DEBUG QueryGenerator:14 - Query Name is :test & Query :Samrat
+2019-11-01 11:58:10 DEBUG QueryGenerator:14 - Query Name is :hello & Query :Martina
+2019-11-01 11:58:10 DEBUG Starter:44 - NamedQuery XML {} Successfully created...
+2019-11-01 13:05:53 DEBUG PatternMatcher:19 - Matched text is : SELECT
+2019-11-01 13:05:53 DEBUG FileParser:27 -    SELECT salary INTO var_salary FROM employee WHERE employee_id >4 ;
+2019-11-01 13:05:53 DEBUG PatternMatcher:19 - Matched text is : SELECT
+2019-11-01 13:05:53 DEBUG FileParser:27 - SELECT salary INTO var_salary FROM employee ;
+2019-11-01 13:05:53 DEBUG PatternMatcher:19 - Matched text is : SELECT
+2019-11-01 13:05:53 DEBUG FileParser:27 - 	SELECT salary INTO var_salary FROM employee;
+2019-11-01 13:06:26 DEBUG PatternMatcher:19 - Matched text is : SELECT
+2019-11-01 13:06:26 DEBUG FileParser:27 -    SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1;
+2019-11-01 13:06:26 DEBUG PatternMatcher:19 - Matched text is : SELECT
+2019-11-01 13:06:26 DEBUG FileParser:27 - SELECT salary INTO var_salary FROM employee ;
+2019-11-01 13:06:26 DEBUG PatternMatcher:19 - Matched text is : SELECT
+2019-11-01 13:06:26 DEBUG FileParser:27 - 	SELECT salary INTO var_salary FROM employee;
+2019-11-01 13:10:44 DEBUG PatternMatcher:19 - Match found!
+2019-11-01 13:10:44 DEBUG PatternMatcher:19 - Match found!
+2019-11-01 13:10:44 DEBUG PatternMatcher:19 - Match found!
+2019-11-01 13:10:44 DEBUG FileParser:35 - Matched text is :[   SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1;, SELECT salary INTO var_salary FROM employee ;, 	SELECT salary INTO var_salary FROM employee;]
+2019-11-01 13:15:12 DEBUG PatternMatcher:19 - Match found! SELECT
+2019-11-01 13:15:12 DEBUG PatternMatcher:19 - Match found! SELECT
+2019-11-01 13:15:12 DEBUG PatternMatcher:19 - Match found! SELECT
+2019-11-01 13:15:12 DEBUG FileParser:35 - Matched text is :[   SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1;, SELECT salary INTO var_salary FROM employee ;, 	SELECT salary INTO var_salary FROM employee;]
+2019-11-01 13:17:14 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 13:17:14 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 13:17:14 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 13:17:14 DEBUG FileParser:35 - Matched text is :[   SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1;, SELECT salary INTO var_salary FROM employee ;, 	SELECT salary INTO var_salary FROM employee;]
+2019-11-01 13:27:02 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 13:27:02 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 13:27:02 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 13:27:02 DEBUG FileParser:35 - Matched text is :[   SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1;, SELECT salary INTO var_salary FROM employee ;, 	SELECT salary INTO var_salary FROM employee;]
+2019-11-01 13:28:03 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 13:28:03 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 13:28:03 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 13:28:03 DEBUG FileParser:35 - Matched text :[SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1, SELECT salary INTO var_salary FROM employee , SELECT salary INTO var_salary FROM employee]
+2019-11-01 13:31:46 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 13:31:46 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 13:31:46 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 13:31:46 DEBUG FileParser:36 - Matched text :[SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1, SELECT salary INTO var_salary FROM employee , SELECT salary INTO var_salary FROM employee]
+2019-11-01 15:57:30 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 15:57:30 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 15:57:30 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 15:57:30 DEBUG FileParser:37 - Matched text :[SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1, SELECT salary INTO var_salary FROM employee , SELECT salary INTO var_salary FROM employee]
+2019-11-01 16:22:49 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:22:49 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:22:49 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:22:49 DEBUG FileParser:59 - Query param key :null Query :SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:22:49 DEBUG FileParser:59 - Query param key :null Query :SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:22:49 DEBUG FileParser:59 - Query param key :null Query :SELECT salary INTO var_salary FROM employee
+2019-11-01 16:22:49 DEBUG FileParser:41 - QGInput query name :null Query : SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:22:49 DEBUG FileParser:41 - QGInput query name :null Query : SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:22:49 DEBUG FileParser:41 - QGInput query name :null Query : SELECT salary INTO var_salary FROM employee
+2019-11-01 16:22:49 DEBUG FileParser:44 - Matched text :[SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1, SELECT salary INTO var_salary FROM employee , SELECT salary INTO var_salary FROM employee]
+2019-11-01 16:25:10 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:25:10 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:25:10 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:25:10 DEBUG FileParser:59 - Query param key :null Query :SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:25:10 DEBUG FileParser:59 - Query param key :null Query :SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:25:10 DEBUG FileParser:59 - Query param key :null Query :SELECT salary INTO var_salary FROM employee
+2019-11-01 16:25:10 DEBUG FileParser:41 - QGInput query name :null Query : SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:25:10 DEBUG FileParser:41 - QGInput query name :null Query : SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:25:10 DEBUG FileParser:41 - QGInput query name :null Query : SELECT salary INTO var_salary FROM employee
+2019-11-01 16:25:10 DEBUG FileParser:44 - Matched text :[SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1, SELECT salary INTO var_salary FROM employee , SELECT salary INTO var_salary FROM employee]
+2019-11-01 16:27:51 DEBUG PatternMatcher:18 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:27:51 DEBUG PatternMatcher:18 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:27:51 DEBUG PatternMatcher:18 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:27:51 DEBUG FileParser:59 - Query param key :null Query :SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:27:51 DEBUG FileParser:59 - Query param key :null Query :SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:27:51 DEBUG FileParser:59 - Query param key :null Query :SELECT salary INTO var_salary FROM employee
+2019-11-01 16:27:51 DEBUG FileParser:41 - QGInput query name :null Query : SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:27:51 DEBUG FileParser:41 - QGInput query name :null Query : SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:27:51 DEBUG FileParser:41 - QGInput query name :null Query : SELECT salary INTO var_salary FROM employee
+2019-11-01 16:27:51 DEBUG FileParser:44 - Matched text :[SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1, SELECT salary INTO var_salary FROM employee , SELECT salary INTO var_salary FROM employee]
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :DECLARE Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :	var_salary number; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :  var_string varchar; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :var_float float; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :BEGIN Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :   SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :IF ( var_float > 3 )  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :THEN  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : dbms_output.put_line(var_salary);  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :ELSE  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : dbms_output.put_line(var_string);  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :END IF; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :var_salary := 100; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :LOOP x := x + 10; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :      dbms_output.put_line(x); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :      IF x > 50 THEN Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :         exit; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :      END IF; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :   END LOOP; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :WHILE a < 20 LOOP Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :      a := a + 1; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :   END LOOP; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :FOR a in 10 .. 20 LOOP Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :  dbms_output.put_line(a); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :	dbms_output.put_line(y); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :END LOOP; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :CREATE OR REPLACE PROCEDURE greetings Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :AS Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :BEGIN Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :   dbms_output.put_line(k); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :SELECT salary INTO var_salary FROM employee ; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :   dbms_output.put_line(y); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :   WHILE a < 20 LOOP Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :      a := a + 1; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :   END LOOP; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :END; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :greetings(); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :CREATE OR REPLACE FUNCTION employer_details_func Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :    RETURN varchar; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : IS  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :    var_salary varchar;  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : BEGIN  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :	SELECT salary INTO var_salary FROM employee; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :	RETURN var_salary; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : END; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :e = employer_details_func(); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :dbms_output.put_line(var_float); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :END Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1 Pattern :(?<= FROM ).*
+2019-11-01 16:31:36 DEBUG FileParser:59 - Query param key :null Query :SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :SELECT salary INTO var_salary FROM employee  Pattern :(?<= FROM ).*
+2019-11-01 16:31:36 DEBUG FileParser:59 - Query param key :null Query :SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:31:36 DEBUG PatternMatcher:13 - match input :SELECT salary INTO var_salary FROM employee Pattern :(?<= FROM ).*
+2019-11-01 16:31:36 DEBUG FileParser:59 - Query param key :null Query :SELECT salary INTO var_salary FROM employee
+2019-11-01 16:31:36 DEBUG FileParser:41 - QGInput query name :null Query : SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:31:36 DEBUG FileParser:41 - QGInput query name :null Query : SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:31:36 DEBUG FileParser:41 - QGInput query name :null Query : SELECT salary INTO var_salary FROM employee
+2019-11-01 16:31:36 DEBUG FileParser:44 - Matched text :[SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1, SELECT salary INTO var_salary FROM employee , SELECT salary INTO var_salary FROM employee]
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :DECLARE Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :	var_salary number; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :  var_string varchar; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :var_float float; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :BEGIN Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :   SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :IF ( var_float > 3 )  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :THEN  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : dbms_output.put_line(var_salary);  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :ELSE  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : dbms_output.put_line(var_string);  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :END IF; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :var_salary := 100; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :LOOP x := x + 10; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :      dbms_output.put_line(x); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :      IF x > 50 THEN Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :         exit; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :      END IF; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :   END LOOP; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :WHILE a < 20 LOOP Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :      a := a + 1; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :   END LOOP; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :FOR a in 10 .. 20 LOOP Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :  dbms_output.put_line(a); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :	dbms_output.put_line(y); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :END LOOP; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :CREATE OR REPLACE PROCEDURE greetings Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :AS Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :BEGIN Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :   dbms_output.put_line(k); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :SELECT salary INTO var_salary FROM employee ; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :   dbms_output.put_line(y); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :   WHILE a < 20 LOOP Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :      a := a + 1; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :   END LOOP; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :END; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :greetings(); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :CREATE OR REPLACE FUNCTION employer_details_func Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :    RETURN varchar; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : IS  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :    var_salary varchar;  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : BEGIN  Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :	SELECT salary INTO var_salary FROM employee; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :	RETURN var_salary; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : END; Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :e = employer_details_func(); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :dbms_output.put_line(var_float); Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :END Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input : Pattern :(SELECT.*|Select.*|select.*)(?<!;)
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1 Pattern :(?<= FROM )(.*)
+2019-11-01 16:40:23 DEBUG PatternMatcher:19 - Match found! fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:40:23 DEBUG FileParser:59 - Query param key :fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1 Query :SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:40:23 DEBUG PatternMatcher:13 - match input :SELECT salary INTO var_salary FROM employee  Pattern :(?<= FROM )(.*)
+2019-11-01 16:40:23 DEBUG PatternMatcher:19 - Match found! employee 
+2019-11-01 16:41:03 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:41:03 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:41:03 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:41:03 DEBUG PatternMatcher:19 - Match found! fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:41:03 DEBUG PatternMatcher:19 - Match found! employee 
+2019-11-01 16:42:11 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:42:11 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:42:11 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:42:11 DEBUG PatternMatcher:19 - Match found! fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:42:11 DEBUG PatternMatcher:19 - Match found! employee 
+2019-11-01 16:42:42 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:42:42 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:42:42 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:42:42 DEBUG PatternMatcher:19 - Match found! fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:42:42 DEBUG FileParser:59 - Query param key :fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1 Query :SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:42:42 DEBUG PatternMatcher:19 - Match found! employee 
+2019-11-01 16:44:55 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:44:55 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:44:55 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:44:55 DEBUG PatternMatcher:19 - Match found! fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:44:55 DEBUG FileParser:59 - Query param key :fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1 Query :SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:44:55 DEBUG PatternMatcher:19 - Match found! employee 
+2019-11-01 16:46:09 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:46:09 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:46:09 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:46:25 DEBUG PatternMatcher:19 - Match found! fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:46:25 DEBUG FileParser:59 - Query param key :fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1 Query :SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:46:25 DEBUG PatternMatcher:19 - Match found! employee 
+2019-11-01 16:48:26 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:48:26 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:48:26 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:48:26 DEBUG PatternMatcher:19 - Match found! fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:48:26 DEBUG FileParser:59 - Query param key :fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1 Query :SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:48:26 DEBUG PatternMatcher:19 - Match found! employee 
+2019-11-01 16:48:26 DEBUG FileParser:59 - Query param key :employee  Query :SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:48:26 DEBUG PatternMatcher:19 - Match found! employee
+2019-11-01 16:48:26 DEBUG FileParser:59 - Query param key :employee Query :SELECT salary INTO var_salary FROM employee
+2019-11-01 16:48:26 DEBUG FileParser:41 - QGInput query name :GET_fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1 Query : SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:48:26 DEBUG FileParser:41 - QGInput query name :GET_employee Query : SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:48:26 DEBUG FileParser:41 - QGInput query name :GET_employee Query : SELECT salary INTO var_salary FROM employee
+2019-11-01 16:48:26 DEBUG FileParser:44 - Matched text :[SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1, SELECT salary INTO var_salary FROM employee , SELECT salary INTO var_salary FROM employee]
+2019-11-01 16:51:10 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:51:10 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:51:10 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:51:10 DEBUG PatternMatcher:19 - Match found! fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:51:10 DEBUG FileParser:60 - Query param key :fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1 Query :SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:51:10 DEBUG PatternMatcher:19 - Match found! employee 
+2019-11-01 16:51:10 DEBUG FileParser:60 - Query param key :employee  Query :SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:51:10 DEBUG PatternMatcher:19 - Match found! employee
+2019-11-01 16:51:10 DEBUG FileParser:60 - Query param key :employee Query :SELECT salary INTO var_salary FROM employee
+2019-11-01 16:51:10 DEBUG FileParser:41 - QGInput query name :GET_fnd_lookup_values WHERE lookup Query : SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:51:10 DEBUG FileParser:41 - QGInput query name :GET_employee Query : SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:51:10 DEBUG FileParser:41 - QGInput query name :GET_employee Query : SELECT salary INTO var_salary FROM employee
+2019-11-01 16:51:10 DEBUG FileParser:44 - Matched text :[SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1, SELECT salary INTO var_salary FROM employee , SELECT salary INTO var_salary FROM employee]
+2019-11-01 16:52:14 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:52:14 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:52:14 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:52:14 DEBUG PatternMatcher:19 - Match found! fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:52:14 DEBUG PatternMatcher:19 - Match found! employee 
+2019-11-01 16:52:14 DEBUG PatternMatcher:19 - Match found! employee
+2019-11-01 16:52:14 DEBUG FileParser:41 - QGInput query name :GET_fnd_lookup_values WHERE lookup Query : SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:52:14 DEBUG FileParser:41 - QGInput query name :GET_employee Query : SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:52:14 DEBUG FileParser:41 - QGInput query name :GET_employee Query : SELECT salary INTO var_salary FROM employee
+2019-11-01 16:52:14 DEBUG FileParser:44 - Matched text :[SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1, SELECT salary INTO var_salary FROM employee , SELECT salary INTO var_salary FROM employee]
+2019-11-01 16:55:30 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:55:30 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:55:30 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:55:30 DEBUG PatternMatcher:19 - Match found! fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:55:30 DEBUG PatternMatcher:19 - Match found! employee 
+2019-11-01 16:55:30 DEBUG PatternMatcher:19 - Match found! employee
+2019-11-01 16:55:30 DEBUG FileParser:42 - QGInput query name :GET_fnd_lookup_values WHERE lookup Query : SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:55:30 DEBUG QueryGenerator:11 - Native Named Query Name is : GET_fnd_lookup_values WHERE lookup & Query : SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:55:30 DEBUG FileParser:42 - QGInput query name :GET_employee Query : SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:55:30 DEBUG QueryGenerator:11 - Native Named Query Name is : GET_employee & Query : SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:55:30 DEBUG FileParser:42 - QGInput query name :GET_employee Query : SELECT salary INTO var_salary FROM employee
+2019-11-01 16:55:30 DEBUG QueryGenerator:11 - Native Named Query Name is : GET_employee & Query : SELECT salary INTO var_salary FROM employee
+2019-11-01 16:55:30 DEBUG FileParser:46 - Matched text :[SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1, SELECT salary INTO var_salary FROM employee , SELECT salary INTO var_salary FROM employee]
+2019-11-01 16:55:59 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:55:59 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:55:59 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:55:59 DEBUG PatternMatcher:19 - Match found! fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:55:59 DEBUG PatternMatcher:19 - Match found! employee 
+2019-11-01 16:55:59 DEBUG PatternMatcher:19 - Match found! employee
+2019-11-01 16:55:59 DEBUG FileParser:42 - QGInput query name :GET_fnd_lookup_values WHERE lookup Query : SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:55:59 DEBUG QueryGenerator:11 - Native Named Query Name is : GET_fnd_lookup_values WHERE lookup & Query : SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:55:59 DEBUG FileParser:42 - QGInput query name :GET_employee Query : SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:55:59 DEBUG QueryGenerator:11 - Native Named Query Name is : GET_employee & Query : SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:55:59 DEBUG FileParser:42 - QGInput query name :GET_employee Query : SELECT salary INTO var_salary FROM employee
+2019-11-01 16:55:59 DEBUG QueryGenerator:11 - Native Named Query Name is : GET_employee & Query : SELECT salary INTO var_salary FROM employee
+2019-11-01 16:55:59 DEBUG FileParser:46 - Matched text :[SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1, SELECT salary INTO var_salary FROM employee , SELECT salary INTO var_salary FROM employee]
+2019-11-01 16:55:59 DEBUG Starter:46 - NamedQuery XML {} Successfully created...
+2019-11-01 16:56:30 DEBUG PatternMatcher:19 - Match found! SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:56:30 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:56:30 DEBUG PatternMatcher:19 - Match found! SELECT salary INTO var_salary FROM employee
+2019-11-01 16:56:30 DEBUG PatternMatcher:19 - Match found! fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:56:30 DEBUG PatternMatcher:19 - Match found! employee 
+2019-11-01 16:56:30 DEBUG PatternMatcher:19 - Match found! employee
+2019-11-01 16:56:30 DEBUG FileParser:42 - QGInput query name :GET_fnd_lookup_values WHERE lookup Query : SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:56:30 DEBUG QueryGenerator:11 - Native Named Query Name is : GET_fnd_lookup_values WHERE lookup & Query : SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1
+2019-11-01 16:56:30 DEBUG FileParser:42 - QGInput query name :GET_employee Query : SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:56:30 DEBUG QueryGenerator:11 - Native Named Query Name is : GET_employee & Query : SELECT salary INTO var_salary FROM employee 
+2019-11-01 16:56:30 DEBUG FileParser:42 - QGInput query name :GET_employee Query : SELECT salary INTO var_salary FROM employee
+2019-11-01 16:56:30 DEBUG QueryGenerator:11 - Native Named Query Name is : GET_employee & Query : SELECT salary INTO var_salary FROM employee
+2019-11-01 16:56:30 DEBUG FileParser:46 - Matched text :[SELECT TO_CHAR (start_date_active, 'MON-YYYY') INTO l_next_start_date FROM fnd_lookup_values WHERE lookup_type = p_lookup_type AND enabled_flag  = 'Y'AND lookup_code   = p_code + 1, SELECT salary INTO var_salary FROM employee , SELECT salary INTO var_salary FROM employee]
+2019-11-01 16:56:30 DEBUG Starter:46 - NamedQuery XML {} Successfully created...

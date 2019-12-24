@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity-mappings xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm" version="2.1">
+    <named-native-query name="GET_Person">
+        <query>SELECT salary INTO var_salary FROM Person  </query>
+    </named-native-query>
+    <named-native-query name="GET_employee">
+        <query>SELECT salary INTO var_salary FROM employee </query>
+    </named-native-query>
+    <named-native-query name="GET_Address">
+        <query>SELECT salary INTO var_salary FROM Address</query>
+    </named-native-query>
+</entity-mappings>

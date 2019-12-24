@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/mvc
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<mvc:annotation-driven />
+		<context:component-scan base-package="ingov.itd.iec.api" />
+	<mvc:default-servlet-handler />
+
+	<bean id="myDataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="[jdbc.Driver]" />
+		<property name="url" value="[jdbc url]"></property>
+		<property name="username" value="[userid]"></property>
+		<property name="password" value="[password]"></property>
+	</bean>
+
+	<!-- Define sessionFactory bean of Spring class -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="myDataSource" />
+		<property name="packagesToScan" value="ingov.itd.iec.api.entity" />
+		<property name="mappingLocations">
+			<list>
+				<value>classpath:named-query.hbm.xml</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<value>
+				hibernate.dialect=org.hibernate.dialect.MySQLDialect
+				hibernate.hbm2ddl.auto=create
+				hibernate.show_sql=true
+			</value>
+		</property>
+	</bean>
+
+
+</beans>
